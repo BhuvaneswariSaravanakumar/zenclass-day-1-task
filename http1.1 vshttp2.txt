@@ -1,0 +1,24 @@
+http.1.1
+It works on the textual format.
+There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
+It uses requests resource Inlining for use getting multiple pages.
+It compresses data by itself.
+
+
+http2
+It works on the binary protocol.
+It allows multiplexing so one TCP connection is required for multiple requests.
+It uses PUSH frame by server that collects all multiple pages.
+It uses HPACK for data compression.
+
+objects and its internal representation in javascript
+A JavaScript object is a collection of named values having state and behavior
+it  is represented by key value pairs.
+objects are variables too.
+The named values, in JavaScript objects, are called properties.
+Methods are actions that can be performed on objects.
+
+Object properties can be both primitive values, other objects, and functions.
+
+An object method is an object property containing a function definition.
+
